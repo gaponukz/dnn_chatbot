@@ -40,3 +40,7 @@ Wait and test it
 ```python
 print(model.get_result("Oh, hello, nice to see you"))
 ```
+# Installation
+- Install python 3.8.6 (no problems with tensorflow)
+- ```[Environment]::SetEnvironmentVariable("python3.8", "C:\path\to\python3.8.6", "User")``` in PowerShell 
+- Install nltk, tensorflow, tflearn
