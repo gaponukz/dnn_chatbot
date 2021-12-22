@@ -18,7 +18,7 @@ class chatbot(object):
     
     def add_topic(self, *args, **kwargs) -> 'chatbot':
         self.data[kwargs['topic_name']] = {
-            "patterns": kwargs['pattern'],
+            "patterns": kwargs['patterns'],
             "responses": kwargs['responses']
         }
 
